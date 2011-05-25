@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var databot = require('../lib/databot');
+
+var config = {
+  server : "irc.freenode.net",
+  nick : "WallyDater",
+  userName : "databot",
+  realName : "data bot for kohai project",
+  channels : [ "#Node.js" ]
+};
+
+databot.start(config);
