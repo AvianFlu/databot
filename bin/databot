@@ -6,8 +6,8 @@ var config = {
   server : "irc.freenode.net",
   nick : "WallyDater",
   userName : "databot",
-  realName : "data bot for kohai project",
-  channels : [ "#Node.js" ]
+  realName : "DateUhBawt",
+  channels : [ "#kohai" ]
 };
 
 databot.start(config);
