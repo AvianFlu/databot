@@ -1,7 +1,7 @@
 {
   "name": "databot",
   "author": "AvianFlu",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "none",
     "url": ""
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "irc" : "0.2.x",
-    "colors" : "0.5.x"
+    "colors" : "0.5.x",
+    "winston" : ">=0.2.11"
   },
   "devDependencies": {}
 }
